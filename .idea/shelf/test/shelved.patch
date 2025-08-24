@@ -1,0 +1,1000 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1755351646521)
++++ b/.gitignore	(date 1755351646521)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1755351657209)
++++ b/.idea/vcs.xml	(date 1755351657209)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/META-INF/MANIFEST.MF
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/META-INF/MANIFEST.MF b/src/META-INF/MANIFEST.MF
+new file mode 100644
+--- /dev/null	(date 1755353316942)
++++ b/src/META-INF/MANIFEST.MF	(date 1755353316942)
+@@ -0,0 +1,3 @@
++Manifest-Version: 1.0
++Main-Class: Main
++
+Index: .idea/artifacts/sigmabank_jar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/sigmabank_jar.xml b/.idea/artifacts/sigmabank_jar.xml
+new file mode 100644
+--- /dev/null	(date 1755353320434)
++++ b/.idea/artifacts/sigmabank_jar.xml	(date 1755353320434)
+@@ -0,0 +1,8 @@
++<component name="ArtifactManager">
++  <artifact type="jar" build-on-make="true" name="sigmabank:jar">
++    <output-path>$PROJECT_DIR$/out/artifacts/sigmabank_jar</output-path>
++    <root id="archive" name="sigmabank.jar">
++      <element id="module-output" name="sigmabank" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1755353320535)
++++ b/.idea/encodings.xml	(date 1755353320535)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/Main.java" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1755351654146)
++++ b/.idea/.gitignore	(date 1755351654146)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: sigmabank.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sigmabank.iml b/sigmabank.iml
+new file mode 100644
+--- /dev/null	(date 1755351656784)
++++ b/sigmabank.iml	(date 1755351656784)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1755351656859)
++++ b/.idea/modules.xml	(date 1755351656859)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/sigmabank.iml" filepath="$PROJECT_DIR$/sigmabank.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1755351657043)
++++ b/.idea/misc.xml	(date 1755351657043)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1756051352814)
++++ b/src/Main.java	(date 1756051352814)
+@@ -0,0 +1,77 @@
++import model.CliOptions;
++import service.CliParser;
++import model.Department;
++import model.Employee;
++import service.SbParser;
++import service.DepartmentWriter;
++import util.StatisticsCalculator;
++
++import java.io.IOException;
++import java.nio.file.*;
++import java.util.*;
++
++public class Main {
++
++    public static void main(String[] args) {
++        CliOptions options;
++        try {
++            options = CliParser.parse(args);
++        } catch (IllegalArgumentException e) {
++            System.err.println("Ошибка параметров: " + e.getMessage());
++            return;
++        }
++
++        List<Path> sbFiles;
++        try {
++            sbFiles = Files.list(Paths.get("."))
++                    .filter(p -> p.getFileName().toString().toLowerCase().endsWith(".sb"))
++                    .toList();
++        } catch (IOException e) {
++            System.err.println("Ошибка поиска .sb файлов: " + e.getMessage());
++            return;
++        }
++
++        if (sbFiles.isEmpty()) {
++            System.err.println("В текущей директории нет .sb файлов");
++            return;
++        }
++
++        Map<String, Department> departments = SbParser.parseFiles(sbFiles);
++
++        if (options.getSortField() != null) {
++            Comparator<Employee> comparator;
++            if ("name".equals(options.getSortField())) {
++                comparator = Comparator.comparing(Employee::getName, String.CASE_INSENSITIVE_ORDER);
++            } else {
++                comparator = Comparator.comparingDouble(Employee::getSalary);
++            }
++
++            if ("desc".equals(options.getSortOrder())) {
++                comparator = comparator.reversed();
++            }
++
++            for (Department dept : departments.values()) {
++                dept.sortEmployees(comparator);
++            }
++        }
++
++        for (Department dept : departments.values()) {
++            DepartmentWriter.writeDepartmentFile(dept);
++        }
++
++        if (options.isStatEnabled()) {
++            List<String> stats = StatisticsCalculator.calculate(departments);
++            if ("file".equals(options.getOutputMode())) {
++                Path outFile = Paths.get(options.getOutputPath());
++                try {
++                    Files.createDirectories(outFile.getParent());
++                    Files.write(outFile, stats);
++                } catch (IOException e) {
++                    System.err.println("Ошибка записи статистики в файл: " + e.getMessage());
++                }
++            } else {
++                stats.forEach(System.out::println);
++            }
++        }
++    }
++}
+Index: src/util/FileUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/util/FileUtil.java b/src/util/FileUtil.java
+new file mode 100644
+--- /dev/null	(date 1755352374343)
++++ b/src/util/FileUtil.java	(date 1755352374343)
+@@ -0,0 +1,28 @@
++package util;
++
++import java.io.BufferedWriter;
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.*;
++import java.util.List;
++
++public class FileUtil {
++    private FileUtil() {}
++
++    public static void writeToFile(Path path, List<String> lines) {
++        try {
++            if (path.getParent() != null) {
++                Files.createDirectories(path.getParent());
++            }
++            try (BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
++                for (String line : lines) {
++                    writer.write(line);
++                    writer.newLine();
++                }
++            }
++        } catch (IOException e) {
++            System.err.println("Ошибка при записи файла: " + path);
++            e.printStackTrace();
++        }
++    }
++}
+Index: src/util/NumberUtils.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/util/NumberUtils.java b/src/util/NumberUtils.java
+new file mode 100644
+--- /dev/null	(date 1756048215437)
++++ b/src/util/NumberUtils.java	(date 1756048215437)
+@@ -0,0 +1,30 @@
++package util;
++
++import java.math.BigDecimal;
++import java.math.RoundingMode;
++
++public class NumberUtils {
++
++    private NumberUtils() {}
++    public static boolean isValidSalary(String salaryStr) {
++        if (salaryStr == null || salaryStr.isBlank()) {
++            return false;
++        }
++        try {
++            double val = Double.parseDouble(salaryStr.trim());
++            return val > 0;
++        } catch (NumberFormatException e) {
++            return false;
++        }
++    }
++
++    public static double parseSalary(String salaryStr) {
++        return Double.parseDouble(salaryStr.trim());
++    }
++
++    public static double roundUpTwoDecimals(double value) {
++        return BigDecimal.valueOf(value)
++                .setScale(2, RoundingMode.CEILING)
++                .doubleValue();
++    }
++}
+Index: src/util/StatisticsCalculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/util/StatisticsCalculator.java b/src/util/StatisticsCalculator.java
+new file mode 100644
+--- /dev/null	(date 1756048215557)
++++ b/src/util/StatisticsCalculator.java	(date 1756048215557)
+@@ -0,0 +1,46 @@
++package util;
++
++import model.Department;
++import model.Employee;
++
++import java.util.*;
++
++public class StatisticsCalculator {
++
++    private StatisticsCalculator() {}
++
++    public static List<String> calculate(Map<String, Department> departments) {
++        List<String> result = new ArrayList<>();
++        result.add("department, min, max, mid");
++
++        departments.keySet().stream()
++                .sorted(String.CASE_INSENSITIVE_ORDER)
++                .forEach(depName -> {
++                    Department dept = departments.get(depName);
++
++                    List<Double> salaries = dept.getEmployees().stream()
++                            .map(Employee::getSalary)
++                            .filter(s -> s > 0)
++                            .toList();
++
++                    double min = 0.0;
++                    double max = 0.0;
++                    double mid = 0.0;
++
++                    if (!salaries.isEmpty()) {
++                        min = salaries.stream().min(Double::compareTo).orElse(0.0);
++                        max = salaries.stream().max(Double::compareTo).orElse(0.0);
++                        mid = salaries.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
++                    }
++
++                    result.add(String.format(Locale.US, "%s,%.2f,%.2f,%.2f",
++                            depName,
++                            NumberUtils.roundUpTwoDecimals(min),
++                            NumberUtils.roundUpTwoDecimals(max),
++                            NumberUtils.roundUpTwoDecimals(mid)));
++                });
++
++        return result;
++    }
++}
++
+Index: src/model/OutputMode.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/OutputMode.java b/src/model/OutputMode.java
+new file mode 100644
+--- /dev/null	(date 1755352374791)
++++ b/src/model/OutputMode.java	(date 1755352374791)
+@@ -0,0 +1,5 @@
++package model;
++
++public enum OutputMode {
++    CONSOLE, FILE
++}
+Index: src/service/CliParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/service/CliParser.java b/src/service/CliParser.java
+new file mode 100644
+--- /dev/null	(date 1756053439633)
++++ b/src/service/CliParser.java	(date 1756053439633)
+@@ -0,0 +1,77 @@
++package service;
++
++import model.CliOptions;
++import java.util.Locale;
++
++public class CliParser {
++
++    private CliParser() {}
++
++    public static CliOptions parse(String[] args) {
++        CliOptions options = new CliOptions();
++
++        for (String arg : args) {
++            if (arg.startsWith("--sort=") || arg.startsWith("-s=")) {
++                String value = extractValue(arg);
++                if (!value.equals("name") && !value.equals("salary")) {
++                    throw new IllegalArgumentException("Недопустимый тип сортировки: " + value);
++                }
++                options.setSortField(value);
++
++            } else if (arg.startsWith("--order=")) {
++                String value = extractValue(arg);
++                if (!value.equals("asc") && !value.equals("desc")) {
++                    throw new IllegalArgumentException("Недопустимый порядок сортировки: " + value);
++                }
++                options.setSortOrder(value);
++
++            } else if (arg.equals("--stat")) {
++                options.setStatEnabled(true);
++
++            } else if (arg.startsWith("--output=") || arg.startsWith("-o=")) {
++                String value = extractValue(arg);
++                if (!value.equals("console") && !value.equals("file")) {
++                    throw new IllegalArgumentException("Недопустимый режим вывода статистики: " + value);
++                }
++                options.setOutputMode(value);
++
++            } else if (arg.startsWith("--path=")) {
++                String value = extractValue(arg);
++                if (value.isEmpty()) {
++                    throw new IllegalArgumentException("Путь к файлу статистики не может быть пустым");
++                }
++                options.setOutputPath(value);
++
++            } else {
++                throw new IllegalArgumentException("Неизвестный параметр: " + arg);
++            }
++        }
++
++        if (options.getSortOrder() != null && options.getSortField() == null) {
++            throw new IllegalArgumentException("--order нельзя использовать без --sort");
++        }
++
++        if (options.getOutputPath() != null && !"file".equals(options.getOutputMode())) {
++            throw new IllegalArgumentException("--path можно использовать только при --output=file");
++        }
++
++        if ("file".equals(options.getOutputMode()) && options.getOutputPath() == null) {
++            throw new IllegalArgumentException("--output=file требует указания --path=<файл>");
++        }
++
++        if (!options.isStatEnabled() &&
++                (options.getOutputMode() != null || options.getOutputPath() != null)) {
++            throw new IllegalArgumentException("Флаги статистики допустимы только вместе с --stat");
++        }
++
++        return options;
++    }
++
++    private static String extractValue(String arg) {
++        String[] parts = arg.split("=", 2);
++        if (parts.length < 2) {
++            throw new IllegalArgumentException("Параметр указан без значения: " + arg);
++        }
++        return parts[1].trim().toLowerCase(Locale.ROOT);
++    }
++}
+Index: src/model/SortField.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/SortField.java b/src/model/SortField.java
+new file mode 100644
+--- /dev/null	(date 1755352374690)
++++ b/src/model/SortField.java	(date 1755352374690)
+@@ -0,0 +1,5 @@
++package model;
++
++public enum SortField {
++    NONE, NAME, SALARY
++}
+\ No newline at end of file
+Index: src/service/DepartmentWriter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/service/DepartmentWriter.java b/src/service/DepartmentWriter.java
+new file mode 100644
+--- /dev/null	(date 1755352373902)
++++ b/src/service/DepartmentWriter.java	(date 1755352373902)
+@@ -0,0 +1,32 @@
++package service;
++
++import model.Department;
++
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.*;
++import java.util.ArrayList;
++import java.util.List;
++
++public class DepartmentWriter {
++
++    private DepartmentWriter() {}
++
++    public static void writeDepartmentFile(Department department) {
++        List<String> lines = new ArrayList<>();
++        if (department.getManager() != null) {
++            lines.add(department.getManager().toSbFormat());
++        }
++        department.getEmployees().forEach(e -> lines.add(e.toSbFormat()));
++
++        Path file = Paths.get(department.getDepartmentName() + ".sb");
++
++        try {
++            Files.write(file, lines, StandardCharsets.UTF_8,
++                    StandardOpenOption.CREATE,
++                    StandardOpenOption.TRUNCATE_EXISTING);
++        } catch (IOException e) {
++            System.err.println("Ошибка записи файла департамента " + file + ": " + e.getMessage());
++        }
++    }
++}
+Index: src/service/ErrorLogger.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/service/ErrorLogger.java b/src/service/ErrorLogger.java
+new file mode 100644
+--- /dev/null	(date 1755352373971)
++++ b/src/service/ErrorLogger.java	(date 1755352373971)
+@@ -0,0 +1,27 @@
++package service;
++
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.*;
++import java.util.List;
++
++public class ErrorLogger {
++
++    private static final Path ERROR_LOG = Paths.get("error.log");
++
++    private ErrorLogger() {}
++
++    public static void writeErrors(List<String> errorLines) {
++        if (errorLines == null || errorLines.isEmpty()) {
++            return;
++        }
++        try {
++            Files.write(ERROR_LOG, errorLines, StandardCharsets.UTF_8,
++                    StandardOpenOption.CREATE,
++                    StandardOpenOption.TRUNCATE_EXISTING);
++        } catch (IOException e) {
++            System.err.println("Ошибка записи error.log");
++            e.printStackTrace();
++        }
++    }
++}
+Index: src/service/SbParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/service/SbParser.java b/src/service/SbParser.java
+new file mode 100644
+--- /dev/null	(date 1756048215630)
++++ b/src/service/SbParser.java	(date 1756048215630)
+@@ -0,0 +1,111 @@
++package service;
++
++import model.Department;
++import model.Employee;
++import model.Manager;
++import util.NumberUtils;
++
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.*;
++import java.util.*;
++
++public class SbParser {
++    private SbParser() {}
++
++    public static Map<String, Department> parseFiles(List<Path> sbFiles) {
++        Map<Integer, Manager> managersById = new HashMap<>();
++        List<Employee> employees = new ArrayList<>();
++        List<String> errorLines = new ArrayList<>();
++
++        for (Path file : sbFiles) {
++            try {
++                List<String> lines = Files.readAllLines(file, StandardCharsets.UTF_8);
++                for (String raw : lines) {
++                    String line = raw.trim();
++                    if (line.isEmpty()) continue;
++
++                    String[] parts = line.split(",");
++                    if (parts.length != 5) {
++                        errorLines.add(line);
++                        continue;
++                    }
++
++                    String role = parts[0].trim();
++                    String idStr = parts[1].trim();
++                    String name = parts[2].trim();
++                    String salaryStr = parts[3].trim();
++                    String depOrManager = parts[4].trim();
++
++                    if (!isPositiveInt(idStr)) {
++                        errorLines.add(line);
++                        continue;
++                    }
++                    int id = Integer.parseInt(idStr);
++
++                    if ("Manager".equalsIgnoreCase(role)) {
++                        if (!NumberUtils.isValidSalary(salaryStr) || depOrManager.isEmpty()) {
++                            errorLines.add(line);
++                            continue;
++                        }
++                        double salary = NumberUtils.roundUpTwoDecimals(NumberUtils.parseSalary(salaryStr));
++                        managersById.put(id, new Manager(id, name, salary, depOrManager));
++
++                    } else if ("Employee".equalsIgnoreCase(role)) {
++                        if (!NumberUtils.isValidSalary(salaryStr) || !isPositiveInt(depOrManager)) {
++                            errorLines.add(line);
++                            continue;
++                        }
++                        double salary = NumberUtils.roundUpTwoDecimals(NumberUtils.parseSalary(salaryStr));
++                        int managerId = Integer.parseInt(depOrManager);
++                        employees.add(new Employee(id, name, salary, managerId));
++
++                    } else {
++                        errorLines.add(line);
++                    }
++                }
++            } catch (IOException e) {
++                System.err.println("Ошибка чтения файла " + file + ": " + e.getMessage());
++            }
++        }
++
++        Map<String, Department> departments = new HashMap<>();
++        for (Manager m : managersById.values()) {
++            departments.computeIfAbsent(m.getDepartmentName(), Department::new)
++                    .setManager(m);
++        }
++
++        for (Employee e : employees) {
++            Manager mgr = managersById.get(e.getManagerId());
++            if (mgr == null) {
++                errorLines.add(e.toSbFormat());
++                continue;
++            }
++            departments.computeIfAbsent(mgr.getDepartmentName(), Department::new)
++                    .addEmployee(e);
++        }
++
++        if (!errorLines.isEmpty()) {
++            writeErrors(errorLines);
++        }
++
++        return departments;
++    }
++
++    private static boolean isPositiveInt(String s) {
++        try {
++            return Integer.parseInt(s) > 0;
++        } catch (NumberFormatException e) {
++            return false;
++        }
++    }
++
++    private static void writeErrors(List<String> errors) {
++        try {
++            Files.write(Paths.get("error.log"), errors, StandardCharsets.UTF_8,
++                    StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
++        } catch (IOException e) {
++            System.err.println("Ошибка записи error.log: " + e.getMessage());
++        }
++    }
++}
+Index: src/service/StatService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/service/StatService.java b/src/service/StatService.java
+new file mode 100644
+--- /dev/null	(date 1755352374378)
++++ b/src/service/StatService.java	(date 1755352374378)
+@@ -0,0 +1,50 @@
++package service;
++
++import model.Department;
++import model.Employee;
++import model.OutputMode;
++import util.FileUtil;
++import util.NumberUtils;
++
++import java.util.*;
++import java.nio.file.Paths;
++
++public class StatService {
++    private StatService() {}
++
++    public static void generate(Map<String, Department> departments,
++                                OutputMode outputMode,
++                                String outputPath) {
++        List<String> lines = new ArrayList<>();
++        lines.add("department,min,max,mid");
++
++        List<String> depNames = new ArrayList<>(departments.keySet());
++        Collections.sort(depNames);
++
++        for (String depName : depNames) {
++            Department dep = departments.get(depName);
++            List<Double> salaries = dep.getEmployees().stream()
++                    .map(Employee::getSalary)
++                    .filter(s -> s > 0)
++                    .toList();
++
++            double min = salaries.isEmpty() ? 0.0 : Collections.min(salaries);
++            double max = salaries.isEmpty() ? 0.0 : Collections.max(salaries);
++            double mid = salaries.isEmpty() ? 0.0 :
++                    salaries.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
++
++            lines.add(String.format("%s,%.2f,%.2f,%.2f",
++                    depName,
++                    NumberUtils.roundUpTwoDecimals(min),
++                    NumberUtils.roundUpTwoDecimals(max),
++                    NumberUtils.roundUpTwoDecimals(mid)
++            ));
++        }
++
++        if (outputMode == OutputMode.FILE) {
++            FileUtil.writeToFile(Paths.get(outputPath), lines);
++        } else {
++            lines.forEach(System.out::println);
++        }
++    }
++}
+Index: src/model/CliOptions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/CliOptions.java b/src/model/CliOptions.java
+new file mode 100644
+--- /dev/null	(date 1755949201480)
++++ b/src/model/CliOptions.java	(date 1755949201480)
+@@ -0,0 +1,50 @@
++package model;
++
++public class CliOptions {
++
++    private String sortField;
++    private String sortOrder;
++    private boolean statEnabled;
++    private String outputMode;
++    private String outputPath;
++
++    public String getSortField() {
++        return sortField;
++    }
++
++    public void setSortField(String sortField) {
++        this.sortField = sortField;
++    }
++
++    public String getSortOrder() {
++        return sortOrder;
++    }
++
++    public void setSortOrder(String sortOrder) {
++        this.sortOrder = sortOrder;
++    }
++
++    public boolean isStatEnabled() {
++        return statEnabled;
++    }
++
++    public void setStatEnabled(boolean statEnabled) {
++        this.statEnabled = statEnabled;
++    }
++
++    public String getOutputMode() {
++        return outputMode;
++    }
++
++    public void setOutputMode(String outputMode) {
++        this.outputMode = outputMode;
++    }
++
++    public String getOutputPath() {
++        return outputPath;
++    }
++
++    public void setOutputPath(String outputPath) {
++        this.outputPath = outputPath;
++    }
++}
+Index: src/model/Department.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/Department.java b/src/model/Department.java
+new file mode 100644
+--- /dev/null	(date 1755352400961)
++++ b/src/model/Department.java	(date 1755352400961)
+@@ -0,0 +1,40 @@
++package model;
++
++import java.util.ArrayList;
++import java.util.Comparator;
++import java.util.List;
++
++public class Department {
++
++    private final String departmentName;
++    private Manager manager;
++    private final List<Employee> employees = new ArrayList<>();
++
++    public Department(String departmentName) {
++        this.departmentName = departmentName;
++    }
++
++    public String getDepartmentName() {
++        return departmentName;
++    }
++
++    public Manager getManager() {
++        return manager;
++    }
++
++    public void setManager(Manager manager) {
++        this.manager = manager;
++    }
++
++    public List<Employee> getEmployees() {
++        return employees;
++    }
++
++    public void addEmployee(Employee employee) {
++        employees.add(employee);
++    }
++
++    public void sortEmployees(Comparator<Employee> comparator) {
++        employees.sort(comparator);
++    }
++}
+Index: src/model/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/Employee.java b/src/model/Employee.java
+new file mode 100644
+--- /dev/null	(date 1756048550352)
++++ b/src/model/Employee.java	(date 1756048550352)
+@@ -0,0 +1,24 @@
++package model;
++
++public class Employee {
++    private final int id;
++    private final String name;
++    private final double salary;
++    private final int managerId;
++
++    public Employee(int id, String name, double salary, int managerId) {
++        this.id = id;
++        this.name = name;
++        this.salary = salary;
++        this.managerId = managerId;
++    }
++
++    public int getId() { return id; }
++    public String getName() { return name; }
++    public double getSalary() { return salary; }
++    public int getManagerId() { return managerId; }
++
++    public String toSbFormat() {
++        return String.format("Employee,%d,%s,%.0f,%d", id, name, salary, managerId);
++    }
++}
+\ No newline at end of file
+Index: src/model/SortOrder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/SortOrder.java b/src/model/SortOrder.java
+new file mode 100644
+--- /dev/null	(date 1755352374332)
++++ b/src/model/SortOrder.java	(date 1755352374332)
+@@ -0,0 +1,5 @@
++package model;
++
++public enum SortOrder {
++    ASC, DESC
++}
+Index: src/model/Manager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/Manager.java b/src/model/Manager.java
+new file mode 100644
+--- /dev/null	(date 1756048215587)
++++ b/src/model/Manager.java	(date 1756048215587)
+@@ -0,0 +1,24 @@
++package model;
++
++public class Manager {
++    private final int id;
++    private final String name;
++    private final double salary;
++    private final String departmentName;
++
++    public Manager(int id, String name, double salary, String departmentName) {
++        this.id = id;
++        this.name = name;
++        this.salary = salary;
++        this.departmentName = departmentName;
++    }
++
++    public int getId() { return id; }
++    public String getName() { return name; }
++    public double getSalary() { return salary; }
++    public String getDepartmentName() { return departmentName; }
++
++    public String toSbFormat() {
++        return String.format("Manager,%d,%s,%.0f", id, name, salary);
++    }
++}
+Index: input2.sb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/input2.sb b/input2.sb
+new file mode 100644
+--- /dev/null	(date 1754325002000)
++++ b/input2.sb	(date 1754325002000)
+@@ -0,0 +1,5 @@
++Manager,3,Jane Smith,5500,IT
++Employee,104,Bob Brown,0,3
++Employee,105,Claire Green,2900.75,3
++Employee,106,Orphaned Person,3200,99
++Employee,107,Spacey User , 3900 , 2
+Index: input1.sb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/input1.sb b/input1.sb
+new file mode 100644
+--- /dev/null	(date 1754325002000)
++++ b/input1.sb	(date 1754325002000)
+@@ -0,0 +1,5 @@
++Employee,101,John Doe,3000,1
++Employee,102,Alice Smith,4500.50,2
++Manager,1,Jane Smith,5000,HR
++Manager,2,Mark White,6000,Sales
++Employee,103,Bad Salary,notanumber,1
